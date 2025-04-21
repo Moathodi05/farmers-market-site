@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <title>Farmers Market Feedback</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">          
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark" >
+            <div id="logo"></div>
+            <img src="images/logo.jpg" alt="logo" class="logo">
+           
+            <li><a href="Farmersmarket.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+
+
+            <div class="search-container ml-auto">
+                <input type="text" placeholder="Search.." id="search-input">
+                <button id="search-button"></button>
+            </div>
+    </header>
+
+  <h1>We Value Your Feedback</h1>
+  <p>Please let us know how we’re doing and how we can improve your market experience.</p>
+</body>
+
+  <form>
+    <label for="name">Name (optional):</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email (optional):</label>
+    <input type="email" id="email" name="email">
+
+    <label for="rating">Rating:</label>
+    <select id="rating" name="rating" required>
+      <option value="">--Select a rating--</option>
+      <option value="5">🌟🌟🌟🌟🌟 - Excellent</option>
+      <option value="4">🌟🌟🌟🌟 - Good</option>
+      <option value="3">🌟🌟🌟 - Average</option>
+      <option value="2">🌟🌟 - Poor</option>
+      <option value="1">🌟 - Terrible</option>
+    </select>
+
+    <label for="message">Your Feedback:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Submit Feedback</button>
+  </form>
+
+  <footer class="footer bg-dark text-white">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <p>© 2025 Farmers Market BW</p>
+            </div>
+            <div class="col-md-4 d-flex flex-column align-items-center">
+                <p>Subscribe to our newsletter:</p>
+                <form action="#" method="post" class="form-inline justify-content-center">
+                    <input type="email" name="email" placeholder="Enter your email" class="form-control mb-2 mr-sm-2" required>
+                    <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+                </form>
+</html>
