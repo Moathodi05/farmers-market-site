@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Products - Farmers Market BW</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" >
+                <div id="logo"></div>
+                <img src="images/logo.jpg" alt="logo" class="logo">
+
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                  <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                  <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+
+              </ul>
+                <div class="search-container ml-auto">
+                    <input type="text" placeholder="Search.." id="search-input">
+                    <button id="search-button"></button>
+                </div>
+  </header>
+
+  <section class="products-hero">
+    <div class="container">
+      <h1>Fresh From Our Local Farms</h1>
+      <p class="lead">Discover the season's best produce, grown with care by our community of farmers</p>
+    </div>
+  </section>
+
+  <main class="container">
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <span class="product-badge">Seasonal</span>
+        <div class="product-image-container">
+          <img src="images/tomatoproduce.jpeg" alt="Fresh Tomatoes" class="product-image">
+        </div>
+        <div class="product-info">
+          <h2>Fresh Tomatoes</h2>
+          <p>Juicy, vine-ripened tomatoes grown in our open fields</p>
+          <div class="product-meta">
+            <i class="fas fa-map-marker-alt"></i> Grown in Gaborone
+          </div>
+          <div class="product-meta">
+            <i class="fas fa-calendar-alt"></i> Harvested weekly
+          </div>
+          <span class="product-price">P25 per kg</span>
+          <button class="add-to-cart">
+            <i class="fas fa-shopping-basket"></i> Add to Basket
+          </button>
+        </div>
+      </div>
+      
+      <!-- Product 2 -->
+      <div class="product-card">
+        <span class="product-badge">Best Seller</span>
+        <div class="product-image-container">
+          <img src="images/honeyproduce.jpeg" alt="Organic Honey" class="product-image">
+        </div>
+        <div class="product-info">
+          <h2>Organic Honey</h2>
+          <p>Pure, raw honey from our local beekeepers</p>
+          <div class="product-meta">
+            <i class="fas fa-map-marker-alt"></i> Sourced from Mochudi
+          </div>
+          <div class="product-meta">
+            <i class="fas fa-bee"></i> 100% Natural
+          </div>
+          <span class="product-price">P85 per jar</span>
+          <button class="add-to-cart">
+            <i class="fas fa-shopping-basket"></i> Add to Basket
+          </button>
+        </div>
+      </div>
+      
+      <!-- Product 3 -->
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="images/lettuce.jpeg" alt="Fresh Lettuce" class="product-image">
+        </div>
+        <div class="product-info">
+          <h2>Fresh Lettuce</h2>
+          <p>Crisp, pesticide-free lettuce varieties</p>
+          <div class="product-meta">
+            <i class="fas fa-map-marker-alt"></i> Grown in Tlokweng
+          </div>
+          <div class="product-meta">
+            <i class="fas fa-leaf"></i> Hydroponically grown
+          </div>
+          <span class="product-price">P15 per head</span>
+          <button class="add-to-cart">
+            <i class="fas fa-shopping-basket"></i> Add to Basket
+          </button>
+        </div>
+      </div>
+      
+      <!-- Product 4 -->
+      <div class="product-card">
+        <span class="product-badge">New Harvest</span>
+        <div class="product-image-container">
+          <img src="images/maize.jpeg" alt="Fresh Maize" class="product-image">
+        </div>
+        <div class="product-info">
+          <h2>Fresh Maize</h2>
+          <p>Sweet, organic maize harvested at peak freshness</p>
+          <div class="product-meta">
+            <i class="fas fa-map-marker-alt"></i> From Molepolole farms
+          </div>
+          <div class="product-meta">
+            <i class="fas fa-clock"></i> Picked this morning
+          </div>
+          <span class="product-price">P10 per cob</span>
+          <button class="add-to-cart">
+            <i class="fas fa-shopping-basket"></i> Add to Basket
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+   <div class="newsletter">
+    <h2>Subscribe to our newsletter</h2>
+    <input type="email" placeholder="Enter your email">
+    <button>Subscribe</button>
+  </div>
+
+  <footer>
+     <p>&copy; 2025 Farmers Market BW | Contact us: info@farmersmarketbw.com</p>
+  </footer>
+</body>
+</html>
